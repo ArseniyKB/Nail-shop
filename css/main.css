@@ -1,0 +1,90 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "./header.css";
+@import "./booking.css";
+@import "./services.css";
+@import "./stories.css";
+@import "./polishes.css";
+@import "./treatments-and-prices.css";
+@import "./products.css";
+@import "./news.css";
+@import "./followus.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+/* 
+font-family: "Montserrat", sans-serif;
+font-family: "Inter", sans-serif; 
+*/
+
+/* * {
+    border: 1px solid red;
+} */
+
+:root {
+    --clear-white: #fff;
+    --darked-white: #F3F3F3;
+    --white: #FCF8EF;
+    --darkened-white: #F1E9D6;
+    --bodily-color: #D8B192;
+    --purple: #030303;
+    --black: #323232;
+    --gray: #767676;
+    --lighted-gray: #ABA195;
+
+    --nav-color-bg: var(--white);
+    --nav-color-text: var(--clear-white);
+    --header-footer-bg-color: var(--bodily-color);
+    --header-footer-color-text: var(--clear-white);
+    --booking-text-color: var(--bodily-color);
+    --booking-stroke-color: var(--gray);
+    --booking-bg-btn: var(--bodily-color);
+    --boking-btn-text-color: var(--clear-white);
+    --services-text-color: var(--gray);
+    --stories-text-color: var(--bodily-color);
+    --stories-content-title: var(--gray);
+    --polishes-bg-color: var(--bodily-color);
+    --polishes-text-color: var(--clear-white);
+    --polishes-text-color-darked: var(--darked-white);
+    --treatments-and-prices-text-color: var(--gray);
+    --treatments-and-prices-bg-color: var(--bodily-color);
+    --treatments-and-prices-text-btn-color: var(--clear-white);
+    --products-text-color: var(--bodily-color);
+    --products-text-color-darked: var(--darked-white);
+    --products-text-color-title: var(--clear-white);
+    --products-text-color-border: var(--clear-white);
+    --news-title-color: var(--bodily-color);
+    --news-list-title-color: var(--gray);
+    --news-btn-text-color: var(--gray);
+    --followus-text-color: var(--white);
+    --followus-title-color: var(--bodily-color);
+    --contacts-title-color: var(--bodily-color);
+    --contacts-text-color: var(--gray);
+    --contacts-border-color: var(--lighted-gray);
+    --contacts-btn-color: var(--bodily-color);
+    --footer-bg-color: var(--bodily-color);
+    --footer-border-color: var(--clear-white);
+    --footer-text-color: var(--clear-white);
+    --footer-text-color-darked: var(--darked-white);
+}
+
+html, body {
+    font-size: 16px;
+  
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--nav-color-bg);
+}
+
+@media (min-width: 1700px) {
+    html, body {
+        font-size: 18px;
+    }
+}
+
+/* General */
+
+.none {
+    display: none !important;
+}

@@ -1,0 +1,55 @@
+/* Polishes */
+
+.polishes {
+  background-color: var(--polishes-bg-color);
+  margin-bottom: 154px;
+}
+
+.polishes__container {
+  padding: 75px 11vw;
+}
+
+.polishes__container-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 49px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--polishes-text-color);
+
+  margin-bottom: 80px;
+}
+
+.polishes__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.polishes__list-item {
+  text-align: center;
+}
+
+.polishes__list-item__image {
+  width: 7.8vw;
+
+  margin-bottom: 20px;
+}
+
+.polishes__list-item__title {
+  padding-left: 35px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: var(--polishes-text-color);
+
+  margin-bottom: 8px;
+}
+
+.polishes__list-item__desc {
+  width: 240px;
+  padding-left: 35px;
+  font-style: 1rem;
+  line-height: 25px;
+  color: var(--polishes-text-color-darked);
+}
+

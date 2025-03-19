@@ -1,0 +1,94 @@
+/* Treatments and prices */
+
+.treatments-and-prices__container {
+  display: flex;
+  column-gap: 200px;
+  padding: 0 6.5vw;
+}
+
+.treatments-and-prices__content {
+  padding-top: 30px;
+}
+
+.treatments-and-prices__content-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: var(--bodily-color);
+  margin-bottom: 29px;
+}
+
+.treatments-and-prices__content-list__item {
+  width: 500px;
+
+  margin-bottom: 30px;
+}
+
+.treatments-and-prices__content-list__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 3px;
+}
+
+.treatments-and-prices__content-list__item-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  color: var(--treatments-and-prices-text-color);
+}
+
+.treatments-and-prices__content-list__item-price {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  color: var(--treatments-and-prices-text-color);
+}
+
+.treatments-and-prices__content-list__item-desc {
+  font-size: 1rem;
+  line-height: 25px;
+  color: var(--treatments-and-prices-text-color);
+}
+
+.treatments-and-prices__content-btn {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: var(--treatments-and-prices-bg-color);
+  border-radius: 50px;
+  color: var(--treatments-and-prices-text-btn-color);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.treatments-and-prices-images {
+  position: absolute;
+  left: 0vw;
+}
+
+.treatments-and-prices-images__image:nth-child(1) {
+  z-index: 1;
+
+  width: 39vw;
+  position: relative;
+  left: 50vw;
+}
+
+.treatments-and-prices-images__image:nth-child(2) {
+  z-index: 0;
+
+  width: 29vw;
+  position: relative;
+  bottom: 32vh;
+  right: -30vw;
+} 
+
+.treatments-and-prices-images__image:nth-child(3) {
+  z-index: 2;
+  width: 27.5vw;
+  position: relative;
+  top: 48.01vh;
+  right: 30.01vw;
+}

@@ -1,0 +1,57 @@
+/* Booking */
+
+.booking {
+  padding: 34px 0;
+
+  margin-bottom: 120px;
+}
+
+.booking__container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.booking__list {
+  display: flex;
+  column-gap: 63px;
+}
+
+.booking__list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__list-item-wrapper {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+
+  margin-bottom: 19px;
+}
+
+.booking__list-item-title {
+  color: var(--booking-text-color);
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.booking__list-item-input {
+  border-bottom: 1px solid var(--booking-stroke-color);
+  padding-bottom: 6px;
+  padding-left: 4px;
+}
+
+.booking__list-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: var(--booking-bg-btn);
+  color: var(--boking-btn-text-color);
+  font-size: 0.875rem;
+}

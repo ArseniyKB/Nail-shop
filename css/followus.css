@@ -1,0 +1,50 @@
+/* Follow us */
+
+.followus {
+  position: absolute;
+  top: 790vh;
+  left: 0;
+}
+
+.followus__effect {
+  width: 20vw;
+  z-index: -1;
+  position: relative;
+  top: 85vh;
+  right: 0vw;
+}
+
+.followus__block {
+  display: block;
+  width: 36vw;
+  height: 41.32vh;
+  background-color: var(--followus-text-color);
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+
+  position: relative;
+  top: 69vh;
+}
+
+.followus__block-image-insta {
+  margin-bottom: 24px;
+}
+
+.followus__block-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--followus-title-color);
+}
+
+.follow__list-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.follow__list-images__item-image {
+  width: 19vw;
+}
+
