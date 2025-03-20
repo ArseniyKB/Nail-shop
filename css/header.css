@@ -94,7 +94,7 @@
 }
 
 .header__footer {
-  width: 1300px;
+  width: 90vw;
   height: 150px;
   background-color: var(--header-footer-bg-color);
   position: absolute;
