@@ -83,6 +83,12 @@ html, body {
     }
 }
 
+@media (min-width: 1800px) {
+    html, body {
+        font-size: 21px;
+    }
+}
+
 /* General */
 
 .none {
