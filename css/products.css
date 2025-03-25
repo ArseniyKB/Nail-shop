@@ -1,11 +1,19 @@
 /* Products */
 
 .products {
-  position: absolute;
+  /* position: absolute;
   top: 515vh;
-  left: 0;
+  left: 0; */
 
-  height: 100vh;
+  margin-bottom: 163px;
+
+  height: 140vh;
+}
+
+@media (min-width: 1690px) {
+  .products {
+    top: 500vh;
+  }
 }
 
 .products__container {

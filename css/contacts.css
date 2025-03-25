@@ -1,8 +1,10 @@
 /* Contacts */
 
 .contacts {
-  position: absolute;
-  top: 1020vh;
+  /* position: absolute;
+  top: 1020vh; */
+
+  margin-bottom: 163px;
 
   width: 100%;
 }
