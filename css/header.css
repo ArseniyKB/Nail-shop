@@ -57,8 +57,8 @@
 }
 
 .header__images-image:nth-child(1) {
-  width: 32.2vw;
-  height: 81vh;
+  width: 32.2%;
+  height: 81%;
 
   margin: -1vh 13.5vw;
 
@@ -70,12 +70,12 @@
 }
 
 .header__images-image:nth-child(2) {
-  width: 20.6vw;
-  height: 71.9vh;
+  width: 20%;
+  height: 60%;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-  margin: 18.3vh 28.9vw;
+  margin: 31.3vh 34.9vw;
 
   position: absolute;
   top: 0;
