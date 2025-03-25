@@ -1,9 +1,7 @@
 /* News */
 
 .news {
-  position: absolute;
-  top: 740vh;
-  left: 0;
+  margin-bottom: 153px;
 }
 
 .news__container {
@@ -62,11 +60,11 @@
   color: var(--news-btn-text-color);
 }
 
-@media (min-width: 1700px) {
+/* @media (min-width: 1690px) {
   .news {
-    top: 750vh;
+    top: 725vh;
   }
-}
+} */
 
 
 

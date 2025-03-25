@@ -1,5 +1,15 @@
 /* Treatments and prices */
 
+.treatments-and-prices {
+  margin-bottom: 163px;
+}
+
+@media (min-width: 1690px) {
+  .treatments-and-prices {
+    margin-bottom: 300px;
+  }
+}
+
 .treatments-and-prices__container {
   display: flex;
   column-gap: 200px;

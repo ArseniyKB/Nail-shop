@@ -9,9 +9,16 @@
 .booking__container {
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 5vw;
   column-gap: 40px;
   align-items: center;
+}
+
+@media (min-width: 1690px) {
+  .booking__container {
+    padding: 0 10vw;
+  }
 }
 
 .booking__list {
